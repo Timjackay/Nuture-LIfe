@@ -1,0 +1,1319 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* -------- oriantatoin portrait or Mobile phone ---- */
+
+@media(orientation: portrait)
+
+{
+
+
+/* --- about --- */
+
+.about{
+    width: 100%;
+    
+}
+.about .contianer{
+    margin: 0;
+    padding: 1rem;
+    flex-wrap: wrap-reverse;
+}
+.about .contianer .describ{
+    width: 100%;
+    margin: auto;
+}
+
+/* --------------- team --------------- */
+
+.teams{
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+}
+.card-team {
+    flex-wrap: wrap;
+    width: 100%;
+    
+    }
+.mian-team{
+    width: 100%;
+}
+.mian-team .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+/* -------------- projecjt ---------------- */
+
+.project{
+    width: 100%;
+}
+.project .card-pj{
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+.project .card-pj .pj{
+    padding: 0 0.5rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+    margin-top: 1rem;
+    border-radius: 0 0 1rem 1rem;
+}
+.project .pj .middle-pj{
+    position: relative;
+    text-align: center;
+    top: -6rem;
+    height: 20vh;
+    opacity: 0;
+}
+.card-pj h2{
+   
+    position: relative;
+    top: -7.5rem;
+}
+.card-pj .dsc-pj ,.know{
+ position: relative;
+ top: -7rem;
+}
+.pj .middle-pj:hover{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10rem;
+    color: white;
+    opacity: 100%;
+    transition: 0.6s;
+    font-size: 0.5rem;
+    cursor: pointer;
+}
+
+/* ------------------- plants -------------- */
+
+.plants{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.plants h1{
+    text-align: center;
+}
+.plants .heading{
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+    font-style: italic;
+    width: 85%;
+    padding: 0.5rem;
+    font-size:large;
+    margin:1rem auto;
+    background-color: rgba(153, 205, 50, 0.966);
+    clip-path: polygon(0 0, 54% 0, 56% 100%, 0% 100%);
+}
+.plants .contianer-plant{
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+.contianer-plant .content-plant{
+    padding: 1rem;
+    width: 100%;
+}
+.content-plant .btn-plant{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+}
+.btn-plant:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+.plants .contianer-plant img{
+    width: 100%;
+    height: 40vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 94%, 51% 94%, 48% 100%, 43% 94%, 0 94%);
+}
+.plants .card-plants{
+    
+    width: 100%;
+    flex-wrap: wrap;
+}
+.plants .card-plants .card-box{
+   
+    width: 100%;
+    height: 55vh;
+    margin:1rem auto;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.card-plants .card-box img{
+    width: 100%;
+    height: 45vh;
+    margin:0 auto;
+    border-radius: 1rem 1rem 0 0;
+}
+.plants .card-plants .card-box .middle{
+position: relative;
+text-align: center;
+margin: 0 auto;
+font-size: 1rem;
+font-style: oblique;
+font-family: monospace;
+top: -45%;
+width: 50%;
+color: rgba(255, 255, 255, 0.849);
+
+}
+.card-box .middle:hover{
+opacity: 100%;
+cursor: pointer;
+text-orientation: sideways;
+transition-duration: 0.4s;
+}
+
+/* -------------- Blog page --------------- */
+
+ .blog{
+    width: 100%;
+}
+.blog .contianer-blog{
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+.blog .row-2{
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+/* ---------- contact ----------- */
+
+.card-contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+.box-contact{
+    width: 40%;
+    padding:1rem 0;
+    color: white;
+    background-color: rgba(238, 238, 238, 0.164);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+
+.control-contact{
+    flex-wrap: wrap;
+    width:100%;
+    margin: 0 auto;
+}
+.control-contact .raduis-left{width: 100%; margin: auto;}
+.control-contact .raduis-right{width: 100%; margin: auto;}
+.contact .form-contianer{
+    width: 99%;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+/* ---------- footer ---------- */
+footer section{
+    flex-wrap: wrap;
+    text-align: center;
+}
+footer h3{
+    margin: auto;
+}
+
+
+}
+
+
+/* ---------------- orientation lendscape or Computer ------------ */
+
+@media(orientation: landscape)
+{
+
+/* --------------- Project ------------- */
+
+
+.project{
+    width: 100%;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.project h1{
+    text-align: center;
+    line-height: 5rem;
+}
+.project .card-pj{
+    padding: 1rem;
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.project .card-pj .pj{
+    padding: 0 0.4rem;
+    width: 40%;
+    height: 70vh;
+    border-radius: 0 0 1rem 1rem;
+}
+
+    /* ---------- The plants --------------- */
+
+    .plants .contianer-plant img{
+        height: 45vh;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 93%, 27% 93%, 13% 100%, 19% 90%, 0 90%);clip-path: polygon(100% 0, 100% 100%, 8% 100%, 8% 53%, 0 39%, 7% 40%, 7% 0);
+    }
+
+ /* -------   the second row of plant ------ */
+    .plants{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    }
+    .plants .heading{
+        background-color: rgba(153, 205, 50, 0.966);
+        clip-path: polygon(0 0, 24% 0, 25% 100%, 0% 100%);
+    }
+    .plants .card-plants{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .plants .card-plants .card-box{
+        height: 55vh;
+    }
+    
+/* -------------- The blogs page ---------------- */
+
+.contianer-blog .row-2{
+    width: 50%;
+    
+}
+/* ----------- contact page ------------- */
+
+
+.contact .form-contianer{
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+.card-contact{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+.box-contact{
+    width: 30%;
+    padding:1rem 0;
+    color: white;
+    background-color: rgba(238, 238, 238, 0.164);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+ /* --------------- footer ---------- */
+
+ footer section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+}
+
+/* -------------- body --------- */
+
+body{
+
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* ----------- header ------------ */
+nav{
+    width: 100%;
+    height: 7rem;
+}
+.logo{
+    float: left;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.logo h1 span{color: orange;}
+
+nav ul{
+    float: right;
+    margin: 1rem 0 0 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+nav ul li a{color: blue;}
+nav ul li a:hover{color: orange;}
+
+#check{
+    display: none;
+}
+.login{
+    float: right;
+    margin: 1.2rem 0;
+    font-size: larger;
+}
+.login .fa{
+   margin-right: 1rem;
+   color: rgb(44, 43, 43);
+}
+.login .fa:hover{color: rgb(107, 106, 106);}
+
+::placeholder{color: rgb(31, 30, 30);}
+
+@media(orientation: landscape){
+    .checkbtn{
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+    .searching{
+        float: right;
+        margin-top: 4rem;
+        font-size: larger;
+        position: relative;
+        right: -12rem;
+    }
+    .searching .searchbox{
+        width: 20rem;
+        padding: 0.6rem 1rem;
+        border-radius: 1rem 0 0 1rem;
+        background-color: #eee;
+    }
+    .searching .fa{
+        background-color: rgb(88, 87, 87);
+        position: relative;
+        left: -2rem;
+        background-color: #eee;
+        color:rgba(0, 0, 0, 0.658);
+    }
+    .home{
+        width: 100%;
+        text-align: center;
+        padding: 12rem 0;
+        background-image: url(../img/back\ team.jpg);
+        background-size:cover;
+        background-position-y: bottom;
+        background-blend-mode: color-burn;
+        background-color: rgba(0, 0, 0, 0.781);
+        color: white;
+    }
+}
+
+@media(orientation:portrait){
+    .logo{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .login{
+        font-size: 0.8rem;
+    }
+    .searching{
+        float: right;
+        margin-top: 2rem;
+        position: relative;
+        right: -9rem;
+    }
+    .searching .searchbox{
+        width: 18rem;
+        padding: 0.4rem 1rem;
+        border-radius: 0.5rem 0 0 0.5rem;
+        background-color: #eee;
+    }
+    .searching .fa{
+        background-color: rgb(88, 87, 87);
+        position: relative;
+        left: -2rem;
+        background-color: #eee;
+        color:rgba(0, 0, 0, 0.658);
+    }
+    .checkbtn{
+        font-size: large;
+        position: relative;
+        top: 1.2rem;
+        right: -10rem;
+    }
+    .checkbtn:hover{
+        color: rgb(136, 135, 135);
+    }
+     ul {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        position: relative;
+        text-align: center;
+        background-color: rgba(10, 10, 10, 0.281);
+    }
+    nav ul li{
+        display: block;
+        font-size: small;
+    }
+    nav ul li a{color: white;}
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .home{
+        width: 100%;
+        text-align: center;
+        padding: 12rem 0;
+        background-image: url(../img/back\ team.jpg);
+        background-size:cover;
+        background-position: center;
+        background-position-y: bottom;
+        background-blend-mode: color-burn;
+        background-color: rgba(0, 0, 0, 0.781);
+        color: white;
+    }
+
+}
+
+.active{color: orange;}
+
+/* --------- home posistoin ----- */
+
+
+.home h3{
+    font-size: 1rem;
+    color: white;
+    
+}
+.home h1 {
+    color: orange;
+    font-weight: bolder;
+    line-height: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home h1 span{
+    color: rgb(36, 36, 255);
+}
+.home .btn{
+    margin-top: 2rem;
+    padding:0.5rem 1rem;
+    background-color: orange;
+    border-radius: 0.5rem;
+    color: white;
+    opacity: 65%;
+    
+
+}
+.home .btn:hover{
+    background-color: rgb(29, 147, 250);
+    color: white;
+    font-weight: bolder;
+    transform: scale(1,1);
+    text-overflow: clip;
+
+}
+
+/* ------ about section ----  */
+
+.about{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+.about h1{
+    line-height: 3rem;
+    color: yellowgreen;
+}
+.about .contianer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.about .describ{
+    margin-left: 5rem;
+    line-height: 2rem;
+    text-align: left;
+    width: 90%;
+    padding-top: 2rem;
+
+}
+.describ .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin: 0.5rem 40%;
+    
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.describ h2{
+    text-align: center;
+    line-height: 4rem;
+}
+.about .card-icon{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.card-icon .card{
+    background-color: rgb(112, 111, 111);
+    color: white;
+    width: 98%;
+    box-shadow: 2px 0px 5px rgb(146, 145, 145);
+    padding: 0.3rem;
+}
+.card-icon .card:hover{
+    transform: scale(1,1.1);
+    opacity: 90%;
+    cursor: pointer;
+    
+}
+.card .icon{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    border: 2px solid rgba(238, 238, 238, 0.363);
+    
+}
+.card .icon .ma{
+    color: yellowgreen;
+    font-size: 2rem;
+
+}
+.card .star-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star-icon .fa{
+    color: orange;
+    font-size: 0.7rem;
+    padding: 0 1px;
+}
+.card h5{ 
+    text-align: center;
+    color: white;
+}
+.describ .card-icon .card p{
+
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.about .image{
+    margin-right: 10rem;
+    margin: auto;
+}
+
+ /*-------------------------- team section -------- */
+
+.teams{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    padding: 1rem 0;
+    text-align: center;
+
+}
+.teams h1{
+    text-align: center;
+    line-height: 3rem;
+    color: yellowgreen;
+}
+.teams .sub-heading{
+    width: 80%;
+    margin: auto;
+    line-height: 2rem;
+    position: static;
+}
+.teams .card-team{
+   display:flex;
+   justify-content: space-between;
+    width: 90%;
+   margin: 0 auto;
+   border-radius: 1rem;
+   
+}
+.card-team .mian-team{
+    margin: 0  1rem;
+    background-color: rgb(112, 111, 111);
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    padding: 0 0.5rem;
+    color: white;
+    margin-top: 5rem;
+
+}
+.card-team .mian-team:hover{
+    opacity: 90%;
+}
+
+.mian-team .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10rem;
+    background-color: antiquewhite;
+    margin: auto;
+    position: relative;
+    top: -40px;
+}
+.profile img{
+    border-radius: 10rem;
+}
+.mian-team h5{
+    position: relative;
+    top: -30px;
+}
+.mian-team p{
+    position: relative;
+    top: -25px;
+}
+.mian-team h5 span{
+    opacity: 60%;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    color: orange;
+}
+.card-team .mian-team p{
+    width: 100%;
+    line-height: 2rem;
+}
+.mian-team .btn{
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+
+.card-team .mian-team .fa{
+    float:right;
+    padding: 0.3rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+.card-team .mian-team .fa:hover{
+    transform: scale(1.4,1.4);
+    cursor: pointer;
+    color: blue;
+    
+}
+
+/* ------------------- Projects ------------------- */
+
+.project{
+    width: 100%;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.project h1{
+    text-align: center;
+    line-height: 5rem;
+}
+
+.pj:hover{
+    transform: scale(1,1);
+    box-shadow: 4px 4px 15px rgb(200, 201, 199);
+}
+
+.pj .image{
+    position: relative;
+    height: 40vh;
+}
+
+.project .card-pj .pj .middle-pj{
+    position: relative;
+    text-align: center;
+    top: -7rem;
+    height: 20vh;
+    opacity: 0;
+   
+}
+
+.project .pj .middle-pj:hover{
+    position: relative;
+    text-align: center;
+    top: -9rem;
+    color: orange;
+    opacity: 100%;
+    transition: 0.4s;
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+}
+.project .card-pj h2{
+    position: relative;
+    top: -6.5rem;
+}
+.card-pj .know{
+ position: relative;
+ top: -5rem;
+
+}
+
+.pj .dsc-pj{
+    
+    position: relative;
+    top: -6rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.project .pj .btn{
+    width: 6rem;
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+
+/* ------------------------ Plants ----------------- */
+
+.plants{
+    width: 100%;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+    background-color: rgb(255, 255, 255);
+}
+.plants h1{
+    text-align: center;
+    line-height: 6rem;
+}
+.plants .contianer-plant{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.content-plant{
+    padding: 0;
+    width: 54%;
+   
+}
+.content-plant h2{
+    text-align: center;
+    line-height: 3.5rem;
+    color: yellowgreen;
+}
+.content-plant p{
+    line-height: 2.5rem;
+}
+.content-plant .btn-plant{
+    width: 6rem;
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem 35%;
+   
+}
+.btn-plant:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+
+.plants img{
+    height: 45vh;
+    
+}
+.plants .contianer-plant img:hover{
+    transform: scale(1,1.1);
+    cursor: pointer;
+    box-shadow: 4px 4px 15px rgb(200, 201, 199);
+}
+
+/* -----------the second row of plants --------- */
+
+.plants .heading{
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+    font-style: italic;
+    width: 89%;
+    padding: 0.5rem;
+    font-size:large;
+    margin:1rem auto;
+    background-color: rgba(153, 205, 50, 0.966);
+    
+}
+.card-plants{
+    padding: 1rem;
+    box-shadow: 0.2rem 0 1rem 0.1rem #eee;
+}
+.card-plants .card-box{
+    box-shadow: 4px 4px 15px rgb(200, 201, 199);
+    border-radius: 1rem;
+    height: 54vh;
+    width: 24%;
+}
+.card-plants .card-box:hover{
+    transform: scale(1,1);
+    box-shadow: 10px 2px 10px rgb(200, 201, 199);
+}
+.plants .card-plants{
+   padding-top: 1rem;
+}
+.plants .card-plants .card-box .image{
+    position: relative;
+    height: 40vh;
+}
+.card-box .middle{
+    position: relative;
+    text-align: center;
+    margin: 0 0 0 4rem;
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: monospace;
+    top: -44%;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.849);
+    opacity: 0;
+   
+}
+.card-box .middle:hover{
+    opacity: 100%;
+    cursor: pointer;
+    text-orientation: sideways;
+    transition-duration: 0.4s;
+}
+
+
+.card-plants .card-box .icon-social{
+    display: flex;
+    width: 98%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding:0.4rem 1rem;
+    position: relative;
+    top: -4.5rem;
+    background-color: rgba(95, 141, 4, 0.315);
+}
+.card-box.icon-social .star .prefer{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.icon-social .star{
+    color: orange;
+}
+.icon-social .prefer{
+    color: white;
+}
+.prefer .fa{
+    padding:0 0.1rem;
+}
+.card-box .icon-social .prefer .fa:hover{
+    transform: scale(1.4,1.4);
+    cursor: pointer;
+    color: blue;
+}
+.card-box .name{
+    padding:0 1rem;
+    position: relative;
+    top: -3.8rem;
+    color: orange;
+}
+.card-box .name span{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+/* -------------- Blog ---------------- */
+
+.blog{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+.blog h1{
+    text-align: center;
+    line-height: 4rem;
+}
+.blog .contianer-blog{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+}
+.row-2:hover{
+    transform: scale(1,1);
+    box-shadow: -1px -1px 0.1rem rgb(194, 190, 190);
+}
+.col-6{
+    width: 50%;
+    padding: 1rem;
+}
+.col-6 h2{
+    line-height: 3rem;
+}
+.col-6 p{
+    line-height: 2rem;
+}
+.blog .row-2 .col-6 .btn{
+    width: 6rem;
+    padding: 0.5rem ;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+    cursor: progress;
+    transition-duration: 0.5s;
+}
+.contact{
+    width: 100%;
+   margin-top: 2rem;
+}
+.main-contianer{
+    background-image: url(../img/map.png);
+    background-size:cover;
+    background-position-y: center;
+    background-blend-mode: color-burn;
+    background-color: rgba(46, 45, 45, 0.822);
+    width: 88%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    color: white;
+}
+.main-contianer h2{
+    text-align: center;
+    color: white;
+}
+.box-contact .fa{
+    font-size: 6rem;
+    color: yellowgreen;
+}
+.box-contact h4{
+    text-align: center;
+    line-height: 2rem;
+}
+.form-group{ padding: 5px; }
+.form-control{
+    padding: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: rgba(101, 105, 109, 0.349);
+    color: white;
+}
+.contact .form-group .btn{
+    background-color: rgba(153, 205, 50, 0.753);
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.836);
+    cursor: pointer;
+    width: 8rem;
+    border-radius: 0.5rem;
+}
+.form-control:focus{ outline-style: none;  }
+.content{padding: 30% 0;}
+.contact h2{color: rgba(255, 255, 255, 0.747);}
+.form{
+    width: 90%;
+    margin: auto;
+}
+.form form{
+    display: block;
+    width: 100%;
+    background: rgba(119, 119, 119, 0.247);
+    border-radius: 1rem;
+}
+form h6{
+    line-height: 4rem;
+    text-align: center;
+}
+.raduis-left {
+     border-radius: 10px 0 0 10px;
+     background-color: rgba(238, 238, 238, 0.541);
+}
+.form .form-group{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.form .logo{
+    width: 100%;
+    margin: 1rem;
+}
+.logo .media{
+    margin: auto;
+    width: 3rem;
+    height: 3rem; 
+    border: 2px solid #eee;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media .fa{
+    color: rgba(255, 255, 255, 0.671);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+     /* ----------- signUp -------------- */
+
+    
+    .form-group-login .signup-btn{
+        background-color: yellowgreen;
+        color: white;
+    }
+    .form-group-login .signup-btn:hover{
+        opacity: 80%;
+        transform: scale(1,1);
+        cursor: pointer;
+    }
+    .form-group-login{
+        padding: 10px; 
+        width: 90%; 
+        margin: auto;
+        line-height: 2rem;
+     }
+    .form-control-login{
+        padding: 0.6rem;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0;
+        background-color: rgba(230, 228, 228, 0.945);
+    }
+    .form-link{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+    .form-contianer-login .sign-up-link,.login-link{
+        width: 20%;
+        padding: 0.5rem;
+        color: black;
+    }
+    .sign-up-link, .login-link:hover{
+        opacity: 80%;
+        cursor: pointer;
+        transform: scale(1,1);
+    }
+    .sign-up-link{background-color: yellowgreen; color: white;}
+    .form-control-login:focus{ outline-style: none; }
+    .form-contianer-login .logo{  text-align: center; }
+    .two-input{  display: flex;  }
+    .last-name{  margin-left: 10px;}
+    .no-resize{ resize: none;}
+   .form-contianer-login .link{text-decoration: none; color: black; font-size: larger;}
+   .form-contianer-login .signup-title{text-align: center; font-size: 20px; font-weight: bolder; padding: 10px; color: white;}
+    
+    .btn-back button{
+        color: #000;
+        border-radius: 0.4rem;
+        padding: 0.5rem 1.2rem;
+        background-color: rgb(253, 249, 249);
+    }
+    .btn-back:hover{
+        opacity: 80%;
+        cursor: pointer;
+    }
+    .check-sigin{
+        display: flex;
+        align-items: center;
+        padding: 0 1.5rem;
+        margin-left: 1rem;
+        color: white;
+    }
+    .check-sigin input{
+        margin-right: 1rem;
+    }
+@media(orientation: portrait){
+    .form-contianer-login{
+        width: 100%;
+        padding: 5rem 0;
+    }
+    .form-login{
+        width: 100%;
+        height: 80vh;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(102, 100, 100, 0.685);
+        border-radius: 10px;
+    }
+    .btn-back{
+        float: right;
+        position: relative;
+        right: 2rem;
+    }
+}
+@media(orientation: landscape){
+    .form-contianer-login{
+        width: 100%;
+        padding: 5rem 0;
+    }
+    .form-login{
+        width: 50%;
+        height: 60vh;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(102, 100, 100, 0.685);
+        border-radius: 10px;
+    }
+    .btn-back{
+        float: right;
+        position: relative;
+        right: 2.5rem;
+    }
+}
+/* -------------- login ------------ */
+
+.contianer-login{
+    width: 65vh;
+    background-color: rgb(216, 211, 211); 
+    margin: auto;
+    padding:2rem;
+    text-align: center;
+    border-radius: 30px;
+}
+.contianer-login .input{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: rgb(216, 211, 211);
+    border: 0;
+    border-bottom: 1.5px solid rgb(168, 168, 167);
+}
+.contianer-login .button{
+    width: 40%;
+    height: 2rem;
+    color: white; 
+    background-image: linear-gradient(to left, rgb(223, 223, 7), green); 
+    border-radius: 1rem;
+}
+.contianer-login .input:focus{outline: none;}
+.contianer-login .paragraph{
+    background-color: rgb(216, 211, 211);
+    color: rgba(0, 0, 0, 0.521); 
+    text-align: start;
+    margin-bottom: 0.8rem;
+}
+.contianer-login h3{
+    background-color: rgb(216, 211, 211);
+}
+.contianer-login p{ background-color: rgb(216, 211, 211);}
+.contianer-login .fab{background-color: rgb(216, 211, 211); margin-top: 1rem; font-size: 2rem;}
+.contianer-login .link{ background-color: rgb(216, 211, 211); }
+.contianer-login .scmedia{ background-color: rgb(216, 211, 211);}
+.contianer-login .button:hover{transform: scale(1,1); opacity: 80%;}
+.contianer-login .fa-google-plus{color: red;}
+.contianer-login .fa-twitter{color: rgb(45, 152, 253);}
+.contianer-login .fa-facebook{color: rgb(10, 62, 131);}
+.btn-back-login{
+    margin: 2rem;
+}
+.btn-back-login button{
+    padding: 0.5rem 1rem;
+    background-color: yellowgreen;
+}
+.btn-back-login a{
+    color: white;
+}
+.btn-back-login button:hover{opacity: 80%;}
+
+    /* ---------- footer ------------ */
+
+footer{
+    width: 100%;
+    background-color: rgb(88, 88, 88);
+    color:white;
+}
+
+footer .card{
+   padding-top: 2rem;
+}
+footer h3{
+    border-bottom: 1px solid yellowgreen;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+footer h3 span{
+    color: orange;
+}
+.card ol li{
+    line-height: 2rem;
+    color: rgb(255, 255, 255);
+}
+.card ol li a{
+    color: rgb(255, 255, 255);
+}
+footer ol li:hover{
+    cursor: pointer;
+}
+footer p{
+    padding: 0.4rem;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid rgb(238, 237, 237);
+}
+footer .fa{
+    text-align: center;
+    font-size: 30px;
+    padding: 0.5rem;
+    line-height: 4rem;
+    cursor: pointer;
+}
